@@ -1,8 +1,30 @@
 ## ECS 160
 
+This course is focused on modern software engineering. Two key observations drive the course syllabus. 
+First, over the past few years (or even decades), software engineering has become
+less about writing code and more about system design at scale. Therefore, the course will focus
+equally on how to design and test individual components, as well as, how to build and orchestrate systems at scale. 
+We will focus on design patterns and component-level testing, but also on microservices, event-driven software design, 
+and ``No-ops'' orchestration frameworks.
+
+The second observation is that while 
+frameworks and technologies rapidly evolve, the fundamental concerns driving this evolution remain more consistent.
+For example, modern software systems are interconnected, making network performance an important concern in these 
+systems. This has resulted in various orchestration frameworks such as Kubernetes optimizing the _data path_---the
+network communication mechanism between different nodes. A discussion of the design of such frameworks is incomplete without
+understanding the system components driving these design choices. To this end, the course will cover a handful
+of operating systems and distributed systems concepts briefly.
+
 ### Prerequisites
 
-The course has a formal prerequisite of ECS 140A, in addition to what is described above.
+The course has a formal prerequisite of ECS 140A. Additionally, the following are the _soft_ prequisites.
+
+The student is expected to have some amount of programming maturity. Knowledge
+of basic OO concepts, such as inheritance, runtime polymorphism, exception handling,
+and so on, and some experience developing non-trivial applications, will be assumed of the student. The
+student is also expected to have experience with socket programming and should be familiar with the notion 
+of IP addresses and ports. Basic knowledge of libraries and system calls will also be assumed. And finally,
+the student should be familiar with modern software engineering tools such as `git`, IDEs (VSCode, IntelliJ, etc).
 
 
 ### Basic information
@@ -34,11 +56,16 @@ Grading will be broken down as follows.
 |----------------------|---------------------------------------------------------------------------------|
 | **Midterm**      | 30%                                                 |
 | **Final**        | 35%                     |
-| **Assignments**  | 20%              |
+| **Homework Assignments**  | 20%              |
 | **In-class quiz**      | 10%                         |
 | **Reading reflections** | 5%              |
 
-The midterm and final will be in-class and closed book. The assignments will be performed in groups of 3.
+- There will be four homework assignments. The assignments must performed individually, and are designed to give the student hands-on experience with current frameworks and toolchains.
+- In-class quizes will consist primarily of multiple-choice questions. We will have 5 quizzes in class - each worth 2% of the grade.
+- We will have 7-8 reading reflections on Perusall. Each student will get a grade out of 1 on each reading reflection. The bottom 2 grades for each student will be dropped.
+- The midterm and final will be closed book. You will be allowed a handwritten single-sided A4-size "cheat sheet" for the midterm and a handwritten double-sided A4-sized "cheat sheet" for the final exam. Both the midterm and the final will include all topics taught in class, the homework assignments, and assigned readings.
+- The final will be cumulative and include all topics taught during the course.
+
 
 The grade cutoffs will be as follows. Grades cutoffs might be lowered further, but you will always get _at least_ the grade mentioned in the table below if you score the required percentage. 
 
