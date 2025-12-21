@@ -79,6 +79,11 @@ You are, however, not permitted to discuss the assignments with anyone outside o
 - Using any sort of AI-integration in IDEs is not permitted (Copilot, Cursor, etc)
 - Turning in AI-generated code is not permitted
 
+### Email policy
+- All questions regarding coursework (homework, exams, quizzes, etc.) should be posted on Piazza
+- When sending emails, please include as the email subject `[W26 ECS 160]` followed by the actual subject line
+- Please do not use AI when writing emails or Piazza posts
+
 ### Late policy
 Homework assignments are due 11:59 PM on the day of the deadline. Reading reflections are due before class. Any missed quiz or mid-term can be made up within two weeks if documentation is provided. Final exams can be made up at the discretion of the instructor.
 
