@@ -5,7 +5,7 @@ First, over the past few years (or even decades), software engineering has becom
 less about writing code and more about system design at scale. Therefore, the course will focus
 equally on how to design and test individual components, as well as, how to build and orchestrate systems at scale. 
 We will focus on design patterns and component-level testing, but also on microservices, event-driven software design, 
-and ``No-ops'' orchestration frameworks.
+and "No-ops" orchestration frameworks.
 
 The second observation is that while 
 frameworks and technologies rapidly evolve, the fundamental concerns driving this evolution remain more consistent.
@@ -34,11 +34,12 @@ the student should be familiar with modern software engineering tools such as `g
 | **Instructor**      | Tapti Palit (tpalit@ucdavis.edu)                                                 |
 | **TA**              | Gabe Bai (gabbai@ucdavis.edu)                     |
 | **Lectures**        | MWF 09:00 AM - 09:50 PM in Veihmeyer Hall 212              |
-| **Discussion**      |                          |
-| **Piazza**     |                |
-| **Instructor Office Hours**    | TBD                |
+| **Discussion**      | W 12:10 PM - 1:00 PM in Wellman Hall 234                   |
+| **Piazza**     | https://piazza.com/ucdavis/winter2026/ecs160winter2026/home               |
+| **Instructor Office Hours**    |  W 2-4 PM (Zoom*)               |
 | **TA Office Hours** | TBD |
 
+_* Location TBD_
 ### Schedule
 
 The course schedule can be found [here](Schedule.md). 
@@ -65,7 +66,6 @@ Grading will be broken down as follows.
 - We will have 7-8 reading reflections on Perusall. Each student will get a grade out of 1 on each reading reflection. The bottom 2 grades for each student will be dropped.
 - The midterm and final will be closed book. You will be allowed a handwritten single-sided A4-size "cheat sheet" for the midterm and a handwritten double-sided A4-sized "cheat sheet" for the final exam. Both the midterm and the final will include all topics taught in class, the homework assignments, and assigned readings.
 - The final will be cumulative and include all topics taught during the course.
-
 
 The grade cutoffs will be as follows. Grades cutoffs might be lowered further, but you will always get _at least_ the grade mentioned in the table below if you score the required percentage. 
 
