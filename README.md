@@ -13,7 +13,9 @@ For example, modern software systems are interconnected, making network performa
 systems. This has resulted in various orchestration frameworks such as Kubernetes optimizing the _data path_---the
 network communication mechanism between different nodes. A discussion of the design of such frameworks is incomplete without
 understanding the system components driving these design choices. To this end, the course will cover a handful
-of operating systems and distributed systems concepts briefly.
+of operating systems and distributed systems concepts briefly, and will focus on _concepts_ more than APIs. 
+The homework assignments will, however, provide some hands-on experience with 
+the latest technologies such as Apache Cassandra, Spring Boot, Kafka, and Kubernetes.
 
 ### Prerequisites
 
@@ -22,9 +24,10 @@ The course has a formal prerequisite of ECS 140A. Additionally, the following ar
 The student is expected to have some amount of programming maturity. Knowledge
 of basic OO concepts, such as inheritance, runtime polymorphism, exception handling,
 and so on, and some experience developing non-trivial applications, will be assumed of the student. The
-student is also expected to have experience with socket programming and should be familiar with the notion 
-of IP addresses and ports. Basic knowledge of libraries and system calls will also be assumed. And finally,
-the student should be familiar with modern software engineering tools such as `git`, IDEs (VSCode, IntelliJ, etc).
+student is also expected to have experience with socket programming and should be familiar with IP addresses and ports. 
+Basic knowledge of libraries and system calls will also be assumed. And finally,
+the student should be familiar with modern software engineering tools such as git, debuggers, IDEs (VSCode, IntelliJ), etc.
+Knowledge of databases (SQL or otherwise) will not be assumed, but will be helpful.
 
 
 ### Basic information
