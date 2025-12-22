@@ -2,11 +2,11 @@
 
 The following is the schedule for ECS 160. Note that while most slides and homework assignment handouts
 will be uploaded significantly in
-advance of the lecture, the content can change any time to fix errors, improve clarity, and so on. So, please
-make sure you are referring to the latest versions.
+advance of the lecture, the content can change any time to fix errors, improve clarity, and so on.
+Note that empty lecture entries indicate that the previous topic continues into the current lecture.
 
 
-| Date       | Topic | Sub-topic                                  | Reading |
+| Date       | Topic | Lecture                                 | Reading |
 |------------|--------|----------------------------------|---------|
 |            |  [Course overview](slides/Intro.pdf)      |                                  |         |
 | 1/5/2026   | [Design patterns]() | OO + Creational design patterns           |         |
