@@ -59,11 +59,11 @@ Grading will be broken down as follows.
 | **Final**        | 35%                     |
 | **Homework Assignments**  | 20%              |
 | **In-class quiz**      | 10%                         |
-| **Reading reflections** | 5%              |
+| **Readings** | 5%              |
 
 - There will be four homework assignments. The assignments must performed individually, and are designed to give the student hands-on experience with current frameworks and toolchains.
 - In-class quizes will consist primarily of multiple-choice questions. We will have 5 quizzes in class - each worth 2% of the grade.
-- We will have 7-8 reading reflections on Perusall. Each student will get a grade out of 1 on each reading reflection. The bottom 2 grades for each student will be dropped.
+- We will have 7-8 readings on Perusall. Each student will get a grade out of 1 on their engagement for each reading. The bottom 2 grades for each student will be dropped.
 - The midterm and final will be closed book. You will be allowed a handwritten single-sided A4-size "cheat sheet" for the midterm and a handwritten double-sided A4-sized "cheat sheet" for the final exam. Both the midterm and the final will include all topics taught in class, the homework assignments, and assigned readings.
 - The final will be cumulative and include all topics taught during the course.
 
