@@ -1,4 +1,4 @@
-## ECS 160
+## ECS 160: Software Engineering
 
 This course is focused on modern software engineering. Two key observations drive the course syllabus. 
 First, over the past few years (or even decades), software engineering has become
@@ -85,13 +85,14 @@ The grade cutoffs will be as follows. Grades cutoffs might be lowered further, b
 
 ## Textbook
 
-There is no required textbook. But the following textbooks and resources are recommended for reference.
+There is no required textbook. But the following textbooks and resources are recommended for reference. The links to the UC Davis online resource has been added where available.
 
-- Design Patterns: Elements of Reusable Object-Oriented Software, by Gamma Erich, Helm Richard, Johnson Ralph, Vlissides John, Grady Booch
-- Parallel Programming Patterns: Timothy G. Mattson, Beverly A. Sanders, Berna L. Massingill
-- Kafka - the definitive guide: Neha Narkhede, Gwen Shapira, Todd Palino
-- Kubernetes in Action - Marko Luksa
-- Effective Software Testing - Mauricio Aniche
+- Design Patterns: Elements of Reusable Object-Oriented Software, by Gamma Erich, Helm Richard, Johnson Ralph, Vlissides John, Grady Booch [link](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_nii_cinii_1130000795942501632)
+- Parallel Programming Patterns: Timothy G. Mattson, Beverly A. Sanders, Berna L. Massingill [link](https://search.library.ucdavis.edu/permalink/01UCD_INST/9fle3i/alma9914814160006531)
+- Designing Data-Intensive Applications: Martin Kleppmann [link](https://search.library.ucdavis.edu/permalink/01UCD_INST/9fle3i/alma9914814325706531)
+- Kafka - the definitive guide: Neha Narkhede, Gwen Shapira, Todd Palino [link](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_askewsholts_vlebooks_9781492043058)
+- Kubernetes in Action - Marko Luksa [link](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_skillsoft_books24x7_bks000147117)
+- Effective Software Testing - Mauricio Aniche [link](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_askewsholts_vlebooks_9781638350583)
 
 ## Policies
 
