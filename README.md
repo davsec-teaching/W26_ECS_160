@@ -17,6 +17,11 @@ of operating systems and distributed systems concepts briefly, and will focus on
 The homework assignments will, however, provide some hands-on experience with 
 the latest technologies such as Apache Cassandra, Spring Boot, Kafka, and Kubernetes.
 
+The course will focus on the following three modules: 
+1. Building components
+2. Composing systems
+3. Validating components
+
 ### Prerequisites
 
 The course has a formal prerequisite of ECS 140A. Additionally, the following are the _soft_ prequisites.
