@@ -18,7 +18,7 @@ Note that empty lecture entries indicate that the previous topic continues into 
 | 1/19/2026  |                 | **HOLIDAY**             |         |       |
 | 1/21/2026  |  |  Case study: Redis ORM design  |        |
 | 1/23/2026  |                                  | Java Dynamic proxies       |         |
-| 1/26/2026  |                                  | Java Annotation Processor  |  [Dagger Reflect - the circle from run-time to compile-time and back to run-time](https://www.droidcon.com/2019/07/03/dagger-reflect-the-circle-from-runtime-to-compile-time-and-back-to-runtime-droidcon-berlin-2019/)       |
+| 1/26/2026  |                                  | Java Annotation Processor  |  [How Uber Engineering Verifies Data at Runtime with the Annotations You Already Use](https://www.uber.com/blog/rave/)       |
 | 1/28/2026  |  [Microservices](slides/Microservices.pdf)                                | Microservices and state |    |
 | 1/30/2026  |  | Messaging systems              |         |
 | 2/2/2026   | [Kafka](slides/Kafka.pdf) |  The immutable log abstraction            | [The Log: What every software engineer should know about real-time data’s unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying) <br/> and <br/> [Java ZeroCopy I/O optimization for high throughput networking](https://developer.ibm.com/articles/j-zerocopy/)  |

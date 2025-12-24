@@ -18,9 +18,9 @@ The homework assignments will, however, provide some hands-on experience with
 the latest technologies such as Apache Cassandra, Spring Boot, Kafka, and Kubernetes.
 
 The course will focus on the following three modules: 
-1. Building components
-2. Composing systems
-3. Validating components
+1. Building components (design patterns, reflective programming)
+2. Composing systems (microservices, message-queues and pub/sub, Kafka, orchestration frameworks)
+3. Validating components (property-based testing, fuzz testing, advanced topics)
 
 ### Prerequisites
 
@@ -76,7 +76,7 @@ Grading will be broken down as follows.
 - The midterm and final will be closed book. You will be allowed a handwritten single-sided A4-size "cheat sheet" for the midterm and a handwritten double-sided A4-sized "cheat sheet" for the final exam. Both the midterm and the final will include all topics taught in class, the homework assignments, and assigned readings.
 - The final will be cumulative and include all topics taught during the course.
 
-The grade cutoffs will be as follows. Grades cutoffs might be lowered further, but you will always get _at least_ the grade mentioned in the table below if you score the required percentage. 
+The grade cutoffs will follow the standard UC Davis grade criteria. Grades cutoffs might be lowered further, but you will always get _at least_ the grade mentioned in the table below if you score the required percentage. 
 
 | **Percentage**          | **Grade**                                                                 |
 |----------------------|---------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ There is no required textbook. But the following textbooks and resources are rec
 - Parallel Programming Patterns: Timothy G. Mattson, Beverly A. Sanders, Berna L. Massingill [link](https://search.library.ucdavis.edu/permalink/01UCD_INST/9fle3i/alma9914814160006531)
 - Designing Data-Intensive Applications: Martin Kleppmann [link](https://search.library.ucdavis.edu/permalink/01UCD_INST/9fle3i/alma9914814325706531)
 - Kafka - the definitive guide: Neha Narkhede, Gwen Shapira, Todd Palino [link](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_askewsholts_vlebooks_9781492043058)
-- Kubernetes in Action - Marko Luksa [link](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_skillsoft_books24x7_bks000147117)
+- Kubernetes in Action - Marko Luksa (Chap 3,4, 5.1-5.4, 11) [link](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_skillsoft_books24x7_bks000147117)
 - Effective Software Testing - Mauricio Aniche [link](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_askewsholts_vlebooks_9781638350583)
 
 ## Policies
@@ -122,7 +122,7 @@ You are, however, not permitted to discuss the assignments with anyone outside o
 - Please do not use AI when writing emails or Piazza posts
 
 ### Late policy
-Homework assignments are due 11:59 PM on the day of the deadline. Reading reflections are due before class. Any missed quiz or mid-term can be made up within two weeks if documentation is provided. Final exams can be made up at the discretion of the instructor.
+Homework assignments are due 11:59 PM on the day of the deadline. Any missed quiz or mid-term can be made up within two weeks if documentation is provided. Final exams can be made up at the discretion of the instructor.
 
 ## Student support
 
