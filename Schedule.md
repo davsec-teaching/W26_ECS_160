@@ -9,14 +9,14 @@ Note that empty lecture entries indicate that the previous topic continues into 
 | Date       | Topic | Lecture                                 | Reading |
 |------------|--------|----------------------------------|---------|
 |            |  [Course overview](slides/Intro.pdf)      |                                  |         |
-| 1/5/2026   | [Design patterns]() | OO + Creational design patterns           |         |
+| 1/5/2026   | [Design patterns](slides/DesignPatterns.pdf) | OO + Creational design patterns           |         |
 | 1/7/2026   |                 | Structural design patterns                    |         |
 | 1/9/2026   |                 | Behavioral design patterns                    |         |
 | 1/12/2026  |                 | Parallel design patterns                    | [Are design patterns missing language features?](https://wiki.c2.com/?AreDesignPatternsMissingLanguageFeatures)        |
 | 1/14/2026  |                 |                   |         |
 | 1/16/2026  |  [Java annotations and reflection](slides/Reflection.pdf)               |  Annotations and Runtime reflection                       |  |
 | 1/19/2026  |                 | **HOLIDAY**             |         |       |
-| 1/21/2026  |  |  Case study: Redis ORM design  |        |
+| 1/21/2026  |  |  Case study: Redis Persistence Framework  |        |
 | 1/23/2026  |                                  | Java Dynamic proxies       |         |
 | 1/26/2026  |                                  | Java Annotation Processor  |  [How Uber Engineering Verifies Data at Runtime with the Annotations You Already Use](https://www.uber.com/blog/rave/)       |
 | 1/28/2026  |  [Microservices](slides/Microservices.pdf)                                | Microservices and state |    |
