@@ -114,7 +114,11 @@ You are, however, not permitted to discuss the assignments with anyone outside o
 - Using AI to understand concepts, exceptions, or compilation errors is permitted
 - Using AI as a "search engine" is allowed
 - Using any sort of AI-integration in IDEs is not permitted (Copilot, Cursor, etc)
+<<<<<<< HEAD
 - Turning in AI-generated code, without proper attribution, is not permitted
+=======
+- Turning in AI-generated code without proper attribution is not permitted
+>>>>>>> 736433c4f1f75c5db99ca3dde664f15db718c0f0
 
 ### Email policy
 - All questions regarding coursework (homework, exams, quizzes, etc.) should be posted on Piazza
