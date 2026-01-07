@@ -11,7 +11,7 @@ Note that empty lecture entries indicate that the previous topic continues into 
 |            |  [Course overview](slides/Intro.pdf)      |                                  |         |
 | 1/5/2026   | [Design patterns](slides/DesignPatterns.pdf) | OO + Creational design patterns           |         |
 | 1/7/2026   |                 | Structural design patterns                    |         |
-| 1/7/2026   |                 | [Java Basic](slides/ECS%20160%20W26%20discussion#1%20.pdf)                                              |         |
+| 1/7/2026   |                 | [Java Basic](slides/JavaBasic.pdf)                                              |         |
 | 1/9/2026   |                 | Behavioral design patterns                    |         |
 | 1/12/2026  |                 | Parallel design patterns                    |         |
 | 1/14/2026  |                 |                   |         |
