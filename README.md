@@ -41,7 +41,7 @@ Knowledge of databases (SQL or otherwise) will not be assumed, but will be helpf
 |----------------------|---------------------------------------------------------------------------------|
 | **Instructor**      | Tapti Palit (tpalit@ucdavis.edu)                                                 |
 | **TA**              | Gabe Bai (gabbai@ucdavis.edu)                     |
-| **Lectures**        | MWF 09:00 AM - 09:50 PM in Veihmeyer Hall 212              |
+| **Lectures**        | MWF 09:00 AM - 09:50 PM in Wellman Hall 226              |
 | **Discussion**      | W 12:10 PM - 1:00 PM in Wellman Hall 234                   |
 | **Piazza**     | https://piazza.com/ucdavis/winter2026/ecs160winter2026/home               |
 | **Instructor Office Hours**    |   [Check Piazza]               |
