@@ -16,6 +16,13 @@ loaded remote proxies for `byte[]` type fields.
 
 1. Please read this entire document carefully before starting to work on the solution. 
 
+2. Please install openjdk-11, Apache Maven, and Sqlite3 on your machine. For example, on Ubuntu - 
+```
+sudo apt update
+sudo apt install -y openjdk-11-jdk maven sqlite3
+
+```
+
 2. The [handout](https://github.com/davsec-teaching/ECS160_HW1_HANDOUT) contains the scaffolding code. Please clone this repo. Your solution must be based on this repo. You are not permitted to modify any of the 
 scaffolding code, or change any method signatures already provided. If you feel you _must_ do this, please ask on Piazza. 
 
