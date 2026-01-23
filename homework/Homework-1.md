@@ -16,12 +16,12 @@ loaded remote proxies for `byte[]` type fields.
 
 1. Please read this entire document carefully before starting to work on the solution. 
 
-2. The [handout](https://github.com/davsec-teaching/ECS160_HW1_HANDOUT) contains the scaffolding code. You are not permitted to modify any of the 
+2. The [handout](https://github.com/davsec-teaching/ECS160_HW1_HANDOUT) contains the scaffolding code. Please clone this repo. Your solution must be based on this repo. You are not permitted to modify any of the 
 scaffolding code, or change any method signatures already provided. If you feel you _must_ do this, please ask on Piazza. 
 
 
-4. The homework assumes some familiarity with SQL. SQL fundamentals will be covered in the discussion, and the only thing you need to know is that SQL databases organize data in rows and columns. [Here](https://www.youtube.com/watch?v=3s0lFtUrhSQ) is a short introduction. Particularly, we will only be using plain
-INSERT queries with PRIMARY KEYs and SELECT queries in this homework, no JOINS, UPDATES, etc. We will be
+4. The homework assumes some familiarity with SQL. SQL fundamentals will be covered in the discussion. Additionally, [here](https://www.youtube.com/watch?v=3s0lFtUrhSQ) is a short introduction. Particularly, we will only be using plain
+INSERT queries with PRIMARY KEYs, and SELECT queries in this homework, no JOINS, UPDATES, etc. We will be
 using an embedded [SQLite database](https://github.com/xerial/sqlite-jdbc) for our purposes. The database and the library necessary to interface with it is already added to your `pom.xml`.
 
 5. The amount of code you're expected to write is ~180 lines. This is only an estimate based on our reference solution. However, if you find that you're writing significantly more or less lines of code, you're encouraged to discuss your solution with us to make sure you're not going down a wrong path.
@@ -42,7 +42,7 @@ the  fields annotated with `@Persistable` should be saved in the database.
 You should add your code to the following two methods in the `SQLiteDB` class.
 1. `insertRow(Object obj)` - This method should iterate over all the fields in the `obj` annotated with the `@Persistable` annotation and save them in the database using an `INSERT` query. You can assume that only fields of types `String`, `int`,
 and `byte[]` are present in `obj` and that the object contains one and only one field annotated with `@PrimaryKey`. You can
-also assume that the field annotated with `@PrimaryKey` will always also be annotated as `@Persistable`. Refer to the reference 
+also assume that the field annotated with `@PrimaryKey` will always also be annotated as `@Persistable`.
     1. No special functionality needs to be implemented for fields tagged with `@RemoteLazyLoad` when saving records.
     2. Please feel free to refer to the non-reflection implementation provided in [`SQLiteDBReference`](https://github.com/davsec-teaching/ECS160_HW1_HANDOUT/blob/main/src/main/java/com/hw1/persistence/SQLiteDBReference.java) to see how to interface with the database using JDBC.
 2. `loadRow(Object obj)` - This method will accept an object `obj` with the field annotated as `@PrimaryKey` populated
@@ -58,10 +58,10 @@ Please feel free to use the helper functions in [`SQLiteDBHelper.java`](https://
 
 ## Grading Rubric
 - Code compiles: 1 point
-- The `insertRow` method in `SQLiteDB` class
+- The `insertRow` method in `SQLiteDB` class functionality - 
   - Saves some of the post object information: 3 points
   - Contains any logic specific to the `Post` class - **deduct 3 points**
-- The `loadRow` method in `SQLiteDB` class 
+- The `loadRow` method in `SQLiteDB` class functionality - 
   - Loads some of the post object information: 3 points
   - Performs lazy loading of remote objects correctly and saves a proper JPEG file: 3 points.
   - Contains any logic specific to the `Post` class - **deduct 6 points**
