@@ -1,9 +1,9 @@
 # ECS160-HW2
 
-#### _(Start date: )_
-#### _(Due date: )_
+#### _(Start date: ) Feb 15, 2026_
+#### _(Due date: ) March 5, 2026_
 
-### Total points: 5
+### Total points: 5 
 
 ## Problem 1: 
 
