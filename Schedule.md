@@ -18,23 +18,23 @@ Note that empty lecture entries indicate that the previous topic continues into 
 | 1/19/2026  |                 | **HOLIDAY**             |         |       |
 | 1/21/2026  |  |  Case study: Redis Persistence Framework  |  [Are design patterns missing language features?](https://wiki.c2.com/?AreDesignPatternsMissingLanguageFeatures)      |
 | 1/23/2026  |                                  | Java Dynamic proxies       |         |
-| 1/26/2026  |                                  | Java Annotation Processor  |  [How Uber Engineering Verifies Data at Runtime with the Annotations You Already Use](https://www.uber.com/blog/rave/)       |
+| 1/26/2026  |                                  | Java Annotation Processor  |         |
 | 1/28/2026  |  [Microservices](slides/Microservices.pdf)                                | Microservices and state |    |
-| 1/30/2026  |  | Messaging systems              |         |
-| 2/2/2026   | [Kafka](slides/Kafka.pdf) |  The immutable log abstraction            | [The Log: What every software engineer should know about real-time data’s unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying) <br/> and <br/> [Java ZeroCopy I/O optimization for high throughput networking](https://developer.ibm.com/articles/j-zerocopy/)  |
+| 1/30/2026  |  | Messaging systems              |   [How Uber Engineering Verifies Data at Runtime with the Annotations You Already Use](https://www.uber.com/blog/rave/)      |
+| 2/2/2026   | [Kafka](slides/Kafka.pdf) |  The immutable log abstraction            |    |
 | 2/4/2026   | |  Broker architecture and storage                             |  |
-| 2/6/2026   | |  Replication and fault tolerance                                   |         |
+| 2/6/2026   | |  Replication and fault tolerance                                   |    [The Log: What every software engineer should know about real-time data’s unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)     |
 | 2/9/2026   | | **IN CLASS MIDTERM**                                         |         |
-| 2/11/2026  | |  Metadata and coordination                                   |   [Introducing uGroup: Uber’s Consumer Management Framework](https://www.uber.com/blog/introducing-ugroup-ubers-consumer-management-framework/)       |
+| 2/11/2026  | |  Metadata and coordination                                   |         |
 | 2/13/2026  | |                                         |         |
-| 2/16/2026  | | **HOLIDAY**                               |  |
-| 2/18/2026  | [Kubernetes](slides/Kubernetes.pdf) | Linux containers, namespaces, and cgroups  | [Design patterns for container-based distributed systems](https://www.usenix.org/system/files/conference/hotcloud16/hotcloud16_burns.pdf) |
+| 2/16/2026  | | **HOLIDAY**                               |  [Introducing uGroup: Uber’s Consumer Management Framework](https://www.uber.com/blog/introducing-ugroup-ubers-consumer-management-framework/) |
+| 2/18/2026  | [Kubernetes](slides/Kubernetes.pdf) | Linux containers, namespaces, and cgroups  |  |
 | 2/20/2026  | |   Kubernetes overview, the pod abstraction   |         |
 | 2/23/2026  | |  Kubernetes replication|         |
-| 2/25/2026  |  | Kubernetes networking fast path                              |         |
-| 2/27/2026  | [Serverless and Function-as-a-Service]() | FaaS as a Kubernetes overlay   |        [Towards Modern Development of Cloud Applications](https://dl.acm.org/doi/pdf/10.1145/3593856.3595909)   |
+| 2/25/2026  |  | Kubernetes networking fast path                              |    [Design patterns for container-based distributed systems](https://www.usenix.org/system/files/conference/hotcloud16/hotcloud16_burns.pdf)     |
+| 2/27/2026  | [Serverless and Function-as-a-Service]() | FaaS as a Kubernetes overlay   |           |
 | 3/2/2026   | [Software testing](slides/SoftwareTesting.pdf) | Property testing                          |       |
-| 3/4/2026   |  | Fuzz testing and sanitizers               |        |
+| 3/4/2026   |  | Fuzz testing and sanitizers               |  [Towards Modern Development of Cloud Applications](https://dl.acm.org/doi/pdf/10.1145/3593856.3595909)      |
 | 3/6/2026   |  |                                        |   |
 | 3/9/2026   |  | Symbolic execution                        |  |
 | 3/11/2026  |  | Abstract interpretation (advanced topic)  |     [GWP-Asan - Sampling-Based Detection of Memory-Safety Bugs in Production](https://arxiv.org/pdf/2311.09394)    |
