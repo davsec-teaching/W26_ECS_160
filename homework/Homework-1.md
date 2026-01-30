@@ -27,7 +27,7 @@ sudo apt install -y openjdk-11-jdk maven sqlite3
 scaffolding code, or change any method signatures already provided. If you feel you _must_ do this, please ask on Piazza. 
 
 
-4. The homework assumes some familiarity with SQL. SQL fundamentals will be covered in the discussion. Additionally, [here](https://www.youtube.com/watch?v=3s0lFtUrhSQ) is a short introduction. Particularly, we will only be using plain
+4. The homework assumes some familiarity with SQL. SQL fundamentals will be covered in the [discussion](slides/SQL.pdf). Additionally, [here](https://www.youtube.com/watch?v=3s0lFtUrhSQ) is a short introduction. Particularly, we will only be using plain
 INSERT queries with PRIMARY KEYs, and SELECT queries in this homework, no JOINS, UPDATES, etc. We will be
 using an embedded [SQLite database](https://github.com/xerial/sqlite-jdbc) for our purposes. The database and the library necessary to interface with it is already added to your `pom.xml`.
 
