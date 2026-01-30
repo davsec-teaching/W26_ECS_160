@@ -37,7 +37,7 @@ using an embedded [SQLite database](https://github.com/xerial/sqlite-jdbc) for o
 First 5 submissions to get full points on Gradescope will get 2 additional points.
 
 ## Task Details
-This assignment's goal is to develop a Redis persistence framework that can persist and load objects of any type, and test it with objects of the `Post` class. 
+This assignment's goal is to develop a SQLite persistence framework that can persist and load objects of any type, and test it with objects of the `Post` class. 
 
 This persistence framework will provide the following annotations. Please add these annotations under the `persistence/` directory in the provided files.
 
@@ -116,3 +116,4 @@ Note that the handout code won't compile until you add the annotation definition
 1. The handout comes with a `./test.sh` script. The test cases of the script should pass to get full credit. **Do not** modify this script.
 3. The submission will be performed on Gradescope. Please note that the points you get on gradescope are final **only if** you
 haven't violated any of the requirements in this handout. For example, we will manually validate that there is no class-specific logic in the `insertRow` and `loadRow` methods, and if there is, we will deduct points manually.  
+
