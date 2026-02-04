@@ -25,6 +25,7 @@ Note that empty lecture entries indicate that the previous topic continues into 
 | 1/28/2026  | [Reflection](slides/ReflectionDiscussion.pdf) | | | 
 | 1/30/2026  |  | Messaging systems              |   [How Uber Engineering Verifies Data at Runtime with the Annotations You Already Use](https://www.uber.com/blog/rave/)      |
 | 2/2/2026   | [Kafka](slides/Kafka.pdf) |  The immutable log abstraction            |    |
+| 2/3/2026|   |[SQL](slides/SQL.pdf) | |
 | 2/4/2026   | |  Broker architecture and storage                             |  |
 | 2/6/2026   | |  Replication and fault tolerance                                   |    [The Log: What every software engineer should know about real-time data’s unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)     |
 | 2/9/2026   | | **IN CLASS MIDTERM**                                         |         |
