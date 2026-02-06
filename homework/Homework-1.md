@@ -116,3 +116,13 @@ Note that the handout code won't compile until you add the annotation definition
 1. The handout comes with a `./test.sh` script. The test cases of the script should pass to get full credit. **Do not** modify this script.
 3. The submission will be performed on Gradescope. Please note that the points you get on gradescope are final **only if** you
 haven't violated any of the requirements in this handout. For example, we will manually validate that there is no class-specific logic in the `insertRow` and `loadRow` methods, and if there is, we will deduct points manually.  
+4. When submitting the homework please make sure that your project contents are directly under the zipped directory. 
+The following is the right hierarchy
+
+```
+ZIP
+- pom.xml
+- README.md
+- src/
+- test.sh
+```
