@@ -11,17 +11,21 @@ Note that empty lecture entries indicate that the previous topic continues into 
 |            |  [Course overview](slides/Intro.pdf)      |                                  |         |
 | 1/5/2026   | [Design patterns](slides/DesignPatterns.pdf) | OO + Creational design patterns           |         |
 | 1/7/2026   |                 | Structural design patterns                    |         |
+| 1/7/2026   |                 | [Java Basic](slides/JavaBasic.pdf)                                              |         |
 | 1/9/2026   |                 | Behavioral design patterns                    |         |
-| 1/12/2026  |                 | Parallel design patterns                    |         |
-| 1/14/2026  |                 |                   |         |
+| 1/12/2026  |                 | Design patterns contd.                    |         |
+| 1/14/2026  |                 | [JDK and Maven](slides/JDKAndMaven.pdf)                  |         |
 | 1/16/2026  |  [Java annotations and reflection](slides/Reflection.pdf)               |  Annotations and Runtime reflection                       |  |
 | 1/19/2026  |                 | **HOLIDAY**             |         |       |
 | 1/21/2026  |  |  Case study: Redis Persistence Framework  |  [Are design patterns missing language features?](https://wiki.c2.com/?AreDesignPatternsMissingLanguageFeatures)      |
+| 1/21/2026  |  [unit test](slides/unitTest.pdf) |||
 | 1/23/2026  |                                  | Java Dynamic proxies       |         |
 | 1/26/2026  |                                  | Java Annotation Processor  |         |
 | 1/28/2026  |  [Microservices](slides/Microservices.pdf)                                | Microservices and state |    |
+| 1/28/2026  | [Reflection](slides/ReflectionDiscussion.pdf) | | | 
 | 1/30/2026  |  | Messaging systems              |   [How Uber Engineering Verifies Data at Runtime with the Annotations You Already Use](https://www.uber.com/blog/rave/)      |
 | 2/2/2026   | [Kafka](slides/Kafka.pdf) |  The immutable log abstraction            |    |
+| 2/3/2026|   |[SQL](slides/Introduction_to_SQL.pdf) | |
 | 2/4/2026   | |  Broker architecture and storage                             |  |
 | 2/6/2026   | |  Replication and fault tolerance                                   |    [The Log: What every software engineer should know about real-time data’s unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)     |
 | 2/9/2026   | | **IN CLASS MIDTERM**                                         |         |

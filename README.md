@@ -45,7 +45,7 @@ Knowledge of databases (SQL or otherwise) will not be assumed, but will be helpf
 | **Discussion**      | W 12:10 PM - 1:00 PM in Wellman Hall 234                   |
 | **Piazza**     | https://piazza.com/ucdavis/winter2026/ecs160winter2026/home               |
 | **Instructor Office Hours**    |   [Check Piazza]               |
-| **TA Office Hours** | TBD |
+| **TA Office Hours** | F 1:00 PM - 3:00 PM in Academic Surge 2359|
 
 ### Schedule
 
