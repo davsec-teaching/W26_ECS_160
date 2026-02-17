@@ -18,29 +18,22 @@ _Learning objectives_
    - LLM integration using Google Gemini
 
 _Necessary background knowledge_
-1. Python decorators
-2. HTTP GET and POST methods. (See [w3schools](https://www.w3schools.com/tags/ref_httpmethods.asp))
+1. Python decorators (See [Python Decorators](https://www.w3schools.com/python/python_decorators.asp))
+2. HTTP GET and POST methods. (See [HTTP Methods](https://www.w3schools.com/tags/ref_httpmethods.asp))
 3. Basic networking concepts such as IP address, ports, etc.
 4. Protocol Buffers (protobuf) basics
 
 _Problem Statement_
 
-You are provided with an `input.csv` file that consists of thousands of social media posts from Bluesky [here](). You will parse these social media posts into Python classes. You can ignore replies of replies.
-Instead of running basic statistical analysis on these posts, you will design a pipeline of microservices that consists of the two microservices described below. Each microservice will take the contents of a single message as input and process it,
+You are provided with an `input.csv` file that consists of thousands of social media posts from Bluesky [here](). First, parse these social media posts into Python classes using any python library
+of your choice. Then, you will design a pipeline of microservices that consists of the two microservices described below. Each microservice will take the contents of a single message as input and process it,
 depending on the functionality of the microservice.
 
-- **Microservice 1:** A moderation service that checks the contents of the post against a list of "banned words" listed at the end of the assignment. The moderation service should return `FAILED` if the post content fails the moderation. If it succeeds, it should forward the request to the hashtagging microservice via gRPC and will ultimately return the results of the second microservice to the client.
+- **Microservice 1:** A moderation service that checks the contents of the post against a list of "banned words" listed at the end of this assignment. The moderation service should return `FAILED` if the post content fails the moderation. If it succeeds, it should forward the request to the hashtagging microservice via gRPC and will ultimately return the results of the second microservice to the client.
 - **Microservice 2:** A hashtagging service that will analyze the contents of the post and tag the post with a hashtag, like `#vacation` and `#happy`. You will invoke Google's [Gemini](https://ai.google.dev/) model for the analysis (more later).
 
-You will execute the pipeline on the top-10 most-liked top-level posts in `input.csv`. For each of these ten top-level posts, you will send individual requests for both the post and any of its replies to the microservice. In other words, make sure to execute the pipeline on the 10 most-liked posts _and_ their replies.
-The output of the pipeline will either be `FAILED` or the hashtag. If the LLM refuses to generate a hashtag for some reason, you can tag it with a default tag such as `#bskypost`. In case any post or reply fails the moderation, display it as `[DELETED]`. For other posts and replies, append the hashtag to the post/reply content. For example, if the top-level post and one of its replies fails the moderation, you would display it as follows.
-
-```
-[DELETED]
---> reply content #sample_hashtag1
---> reply content #sample_hashtag2
---> [DELETED]
-```
+You will execute the pipeline on the top-10 most-liked top-level posts in `input.csv`. 
+The output of the pipeline will either be `FAILED` or the hashtag. If the LLM refuses to generate a hashtag for some reason, you can tag it with a default tag such as `#bskypost`. In case any post fails the moderation, display it as `[DELETED]`. For other posts append the hashtag to the post content. 
 
 ## Implementing a Microservice
 
@@ -50,12 +43,11 @@ Please clone the handout repository at https://github.com/davsec-teaching/ECS160
 
 ### Setting up your environment
 
-Create a virtual environment and install the dependencies:
+Create a virtual environment and install all the dependencies in the environment. Make sure to add a `requirements.txt` file that contains the imported libraries:
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
 ```
 
 ### Writing a FastAPI microservice
@@ -104,7 +96,8 @@ Remember, a microservice is an independent piece of software. Each microservice 
 
 ## Chaining Microservices with gRPC
 
-While the client communicates with the moderation service over HTTP (REST), the moderation service will communicate with the hashtagging service using [gRPC](https://grpc.io/). gRPC is a high-performance RPC framework that uses Protocol Buffers (protobuf) for message serialization, and is commonly used for inter-service communication in microservice architectures.
+While the client communicates with the moderation service over HTTP (REST), the moderation service will communicate with the hashtagging service using [gRPC](https://grpc.io/). As discussed in class, 
+gRPC is a high-performance RPC framework that uses Protocol Buffers (protobuf) for message serialization, and is commonly used for inter-service communication in microservice architectures.
 
 As covered in lecture, you will need to:
 
@@ -118,7 +111,8 @@ Refer to the [official gRPC Python documentation](https://grpc.io/docs/languages
 
 ## LLM Integration with Gemini
 
-We will use Google's Gemini model to generate hashtags for social media posts. You will have access to Gemini through Google Cloud.
+We will use Google's Gemini model to generate hashtags for social media posts. You will have access to Gemini through Google Cloud. Please log in to your Google Cloud account and enable the Gemini (or Vertex AI) service and generate a key.
+
 
 Install the Google Gen AI Python SDK:
 
@@ -143,8 +137,7 @@ client = genai.Client(api_key=os.environ["GOOGLE_API_KEY"])
 def generate_hashtag(post_content: str) -> str:
     response = client.models.generate_content(
         model="gemini-2.0-flash",
-        contents=f"Please generate a single hashtag for this social media post. "
-        f"Return only the hashtag and nothing else.\n\n{post_content}",
+        contents=f"... Your prompt goes here...",
     )
     return response.text.strip()
 ```
