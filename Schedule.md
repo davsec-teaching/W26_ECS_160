@@ -35,8 +35,8 @@ Note that empty lecture entries indicate that the previous topic continues into 
 | 2/18/2026  | [Kubernetes](slides/Kubernetes.pdf) | Linux containers, namespaces, and cgroups  |  |
 | 2/20/2026  | |   Kubernetes overview, the pod abstraction   |         |
 | 2/23/2026  | |  Kubernetes replication|         |
-| 2/25/2026  |  | Kubernetes networking fast path                              |    [Design patterns for container-based distributed systems](https://www.usenix.org/system/files/conference/hotcloud16/hotcloud16_burns.pdf)     |
-| 2/27/2026  | [Serverless and Function-as-a-Service]() | FaaS as a Kubernetes overlay   |           |
+| 2/25/2026  |  |                               |    [Design patterns for container-based distributed systems](https://www.usenix.org/system/files/conference/hotcloud16/hotcloud16_burns.pdf)     |
+| 2/27/2026  | |    |           |
 | 3/2/2026   | [Software testing](slides/SoftwareTesting.pdf) | Property testing                          |       |
 | 3/4/2026   |  | Fuzz testing and sanitizers               |  [Towards Modern Development of Cloud Applications](https://dl.acm.org/doi/pdf/10.1145/3593856.3595909)      |
 | 3/6/2026   |  |                                        |   |

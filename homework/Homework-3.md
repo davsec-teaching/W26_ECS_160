@@ -1,6 +1,6 @@
 # ECS160-HW3
 
-#### _(Start date: ) March 5, 2026_
+#### _(Start date: ) March 7, 2026_
 #### _(Due date: ) March 20, 2026_
 
 ### Total points: 5
