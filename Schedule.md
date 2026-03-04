@@ -32,7 +32,7 @@ Note that empty lecture entries indicate that the previous topic continues into 
 | 2/11/2026  | |  Metadata and coordination                                   |         |
 | 2/13/2026  | |                                         |         |
 | 2/16/2026  | | **HOLIDAY**                               |  [Introducing uGroup: Uber’s Consumer Management Framework](https://www.uber.com/blog/introducing-ugroup-ubers-consumer-management-framework/) |
-| 2/18/2026  | [Kubernetes](slides/Kubernetes.pdf) | Linux containers, namespaces, and cgroups  |  |
+| 2/18/2026  | [Kubernetes](slides/Kubernetes.pdf) [Docker (optional)](slides/Docker.pdf) | Linux containers, namespaces, and cgroups  |  |
 | 2/20/2026  | |   Kubernetes overview, the pod abstraction   |         |
 | 2/23/2026  | |  Kubernetes replication|         |
 | 2/25/2026  |  |                               |    [Design patterns for container-based distributed systems](https://www.usenix.org/system/files/conference/hotcloud16/hotcloud16_burns.pdf)     |
