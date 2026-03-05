@@ -37,11 +37,11 @@ Note that empty lecture entries indicate that the previous topic continues into 
 | 2/23/2026  | |  Kubernetes replication|         |
 | 2/25/2026  |  |                               |    [Design patterns for container-based distributed systems](https://www.usenix.org/system/files/conference/hotcloud16/hotcloud16_burns.pdf)     |
 | 2/27/2026  | |    |           |
-| 3/2/2026   | [Software testing](slides/SoftwareTesting.pdf) | Property testing                          |       |
-| 3/4/2026   |  | Fuzz testing and sanitizers               |  [Towards Modern Development of Cloud Applications](https://dl.acm.org/doi/pdf/10.1145/3593856.3595909)      |
+| 3/2/2026   | [Software testing](slides/SoftwareTesting.pdf) |  Fuzz testing and sanitizers                         |       |
+| 3/4/2026   |  |                |  [Towards Modern Development of Cloud Applications](https://dl.acm.org/doi/pdf/10.1145/3593856.3595909)      |
 | 3/6/2026   |  |                                        |   |
 | 3/9/2026   |  | Symbolic execution                        |  |
-| 3/11/2026  |  | Abstract interpretation (advanced topic)  |     [GWP-Asan - Sampling-Based Detection of Memory-Safety Bugs in Production](https://arxiv.org/pdf/2311.09394)    |
+| 3/11/2026  |  |  |     [GWP-Asan - Sampling-Based Detection of Memory-Safety Bugs in Production](https://arxiv.org/pdf/2311.09394)    |
 | 3/13/2026  |  | Review                                   |         |
 | 3/16/2026  |  | **IN CLASS FINAL EXAM at 3:30 PM**                                   |         |
 
